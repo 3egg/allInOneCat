@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameControlSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="160727e123e" />
+	<e:Image id="item_0" source="tile1_png" x="462" y="136"/>
+	<e:Image id="item_1" source="tile1_png" x="667" y="136"/>
+	<e:Image id="item_2" source="tile1_png" x="872" y="136"/>
+	<e:Image id="item_3" source="tile1_png" x="462" y="302"/>
+	<e:Image id="item_4" source="tile1_png" x="667" y="302"/>
+	<e:Image id="item_5" source="tile1_png" x="872" y="302"/>
+	<e:Image id="item_6" source="tile1_png" x="462" y="468"/>
+	<e:Image id="item_7" source="tile1_png" x="667" y="468"/>
+	<e:Image id="item_8" source="tile1_png" x="872" y="468"/>
+
+</e:Skin>

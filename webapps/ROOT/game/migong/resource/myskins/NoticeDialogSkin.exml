@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewNoticeDialogSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" alpha="0.5" fillColor="0x000000"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="tipInfo_png"/>
+	<e:Label text="" x="537" y="443" anchorOffsetX="0" width="103" textAlign="center"/>
+	<e:Image id="noticeDialogCloseBtn" x="986" y="142" source="closeBtn_png" visible="false"/>
+	<e:Rect id="btnGuanBi" width="180.61" height="80.61" x="570" y="552" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.01"/>
+</e:Skin>

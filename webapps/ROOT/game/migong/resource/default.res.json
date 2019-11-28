@@ -1,0 +1,344 @@
+{
+	"groups": [
+		{
+			"keys": "default.res_json,default.thm_json,bgMusicEnd_png,bgMusicStart_png,helpEnd_png,helpStart_png,restartEnd_png,restartStart_png,gameBtnsBg_png,BtnsGroupSkin_exml,GameControlSkin_exml,GameStageSkin_exml,NoticeDialogSkin_exml,bgMusic_mp3,gameOverBg_mp3,right_mp3,wrong_mp3,effect1_json,effect1_png,effect2_json,effect2_png,closeBtn_png,endBtn_png,gameEndBg_png,item_1_1_png,nextBtn_png,nextGameBtn_png,playBtn_png,resetBtn_png,restartBtn_png,reward_title1_png,reward_title2_png,sound_off_png,sound_on_png,tile1_png,backBtn_png,success1Bg_png,iteminfo_json,tipInfo_png,helpBtn_png,close1Btn_png,migongxianlu1_png,tu02_png,tu01_png,migongbg2_jpg,migongbg3_jpg,migongxianlu2_png,migongxianlu3_png,migongbg1_jpg,zhaqu3_png,zhaqu1_png,zhaqu2_png,baozha02_png,baozha01_png,shibai_png,tuzikaixin_png,tuzinanguo_png,chengong_png,baozha_mp3,fail_mp3,success_mp3,start_mp3,preloadMusic_mp3,enterGame_mp3",
+			"name": "preload"
+		},
+		{
+			"keys": "effect3_png,effect3_json",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "default.res.json",
+			"type": "json",
+			"name": "default.res_json"
+		},
+		{
+			"url": "default.thm.json",
+			"type": "json",
+			"name": "default.thm_json"
+		},
+		{
+			"url": "mycomponent/btnsGroup/btns/bgMusicEnd.png",
+			"type": "image",
+			"name": "bgMusicEnd_png"
+		},
+		{
+			"url": "mycomponent/btnsGroup/btns/bgMusicStart.png",
+			"type": "image",
+			"name": "bgMusicStart_png"
+		},
+		{
+			"url": "mycomponent/btnsGroup/btns/helpEnd.png",
+			"type": "image",
+			"name": "helpEnd_png"
+		},
+		{
+			"url": "mycomponent/btnsGroup/btns/helpStart.png",
+			"type": "image",
+			"name": "helpStart_png"
+		},
+		{
+			"url": "mycomponent/btnsGroup/btns/restartEnd.png",
+			"type": "image",
+			"name": "restartEnd_png"
+		},
+		{
+			"url": "mycomponent/btnsGroup/btns/restartStart.png",
+			"type": "image",
+			"name": "restartStart_png"
+		},
+		{
+			"url": "mycomponent/btnsGroup/gameBtnsBg.png",
+			"type": "image",
+			"name": "gameBtnsBg_png"
+		},
+		{
+			"url": "myskins/BtnsGroupSkin.exml",
+			"type": "bin",
+			"name": "BtnsGroupSkin_exml"
+		},
+		{
+			"url": "myskins/GameControlSkin.exml",
+			"type": "bin",
+			"name": "GameControlSkin_exml"
+		},
+		{
+			"url": "myskins/GameStageSkin.exml",
+			"type": "bin",
+			"name": "GameStageSkin_exml"
+		},
+		{
+			"url": "myskins/NoticeDialogSkin.exml",
+			"type": "bin",
+			"name": "NoticeDialogSkin_exml"
+		},
+		{
+			"url": "sound/bgMusic.mp3",
+			"type": "sound",
+			"name": "bgMusic_mp3"
+		},
+		{
+			"url": "sound/gameOverBg.mp3",
+			"type": "sound",
+			"name": "gameOverBg_mp3"
+		},
+		{
+			"url": "sound/right.mp3",
+			"type": "sound",
+			"name": "right_mp3"
+		},
+		{
+			"url": "sound/wrong.mp3",
+			"type": "sound",
+			"name": "wrong_mp3"
+		},
+		{
+			"url": "effect/effect1.png",
+			"type": "image",
+			"name": "effect1_png"
+		},
+		{
+			"url": "effect/effect2.png",
+			"type": "image",
+			"name": "effect2_png"
+		},
+		{
+			"url": "effect/effect1.json",
+			"type": "json",
+			"name": "effect1_json"
+		},
+		{
+			"url": "effect/effect2.json",
+			"type": "json",
+			"name": "effect2_json"
+		},
+		{
+			"url": "effect/effect3.png",
+			"type": "image",
+			"name": "effect3_png"
+		},
+		{
+			"url": "effect/effect3.json",
+			"type": "json",
+			"name": "effect3_json"
+		},
+		{
+			"name": "closeBtn_png",
+			"type": "image",
+			"url": "myassets/common/closeBtn.png"
+		},
+		{
+			"name": "endBtn_png",
+			"type": "image",
+			"url": "myassets/common/endBtn.png"
+		},
+		{
+			"name": "gameEndBg_png",
+			"type": "image",
+			"url": "myassets/common/gameEndBg.png"
+		},
+		{
+			"name": "item_1_1_png",
+			"type": "image",
+			"url": "myassets/common/item_1_1.png"
+		},
+		{
+			"name": "nextBtn_png",
+			"type": "image",
+			"url": "myassets/common/nextBtn.png"
+		},
+		{
+			"name": "nextGameBtn_png",
+			"type": "image",
+			"url": "myassets/common/nextGameBtn.png"
+		},
+		{
+			"name": "playBtn_png",
+			"type": "image",
+			"url": "myassets/common/playBtn.png"
+		},
+		{
+			"name": "resetBtn_png",
+			"type": "image",
+			"url": "myassets/common/resetBtn.png"
+		},
+		{
+			"name": "restartBtn_png",
+			"type": "image",
+			"url": "myassets/common/restartBtn.png"
+		},
+		{
+			"name": "reward_title1_png",
+			"type": "image",
+			"url": "myassets/common/reward_title1.png"
+		},
+		{
+			"name": "reward_title2_png",
+			"type": "image",
+			"url": "myassets/common/reward_title2.png"
+		},
+		{
+			"name": "sound_off_png",
+			"type": "image",
+			"url": "myassets/common/sound_off.png"
+		},
+		{
+			"name": "sound_on_png",
+			"type": "image",
+			"url": "myassets/common/sound_on.png"
+		},
+		{
+			"name": "tile1_png",
+			"type": "image",
+			"url": "myassets/common/tile1.png"
+		},
+		{
+			"name": "backBtn_png",
+			"type": "image",
+			"url": "myassets/common/backBtn.png"
+		},
+		{
+			"name": "success1Bg_png",
+			"type": "image",
+			"url": "myassets/common/success1Bg.png"
+		},
+		{
+			"name": "iteminfo_json",
+			"type": "json",
+			"url": "myassets/common/iteminfo.json"
+		},
+		{
+			"name": "tipInfo_png",
+			"type": "image",
+			"url": "myassets/common/tipInfo.png"
+		},
+		{
+			"name": "helpBtn_png",
+			"type": "image",
+			"url": "myassets/common/helpBtn.png"
+		},
+		{
+			"name": "close1Btn_png",
+			"type": "image",
+			"url": "myassets/common/close1Btn.png"
+		},
+		{
+			"name": "migongxianlu1_png",
+			"type": "image",
+			"url": "myassets/migongxianlu1.png"
+		},
+		{
+			"name": "tu02_png",
+			"type": "image",
+			"url": "myassets/tu02.png"
+		},
+		{
+			"name": "tu01_png",
+			"type": "image",
+			"url": "myassets/tu01.png"
+		},
+		{
+			"name": "migongbg2_jpg",
+			"type": "image",
+			"url": "myassets/migongbg2.jpg"
+		},
+		{
+			"name": "migongbg3_jpg",
+			"type": "image",
+			"url": "myassets/migongbg3.jpg"
+		},
+		{
+			"name": "migongxianlu2_png",
+			"type": "image",
+			"url": "myassets/migongxianlu2.png"
+		},
+		{
+			"name": "migongxianlu3_png",
+			"type": "image",
+			"url": "myassets/migongxianlu3.png"
+		},
+		{
+			"name": "migongbg1_jpg",
+			"type": "image",
+			"url": "myassets/migongbg1.jpg"
+		},
+		{
+			"name": "zhaqu3_png",
+			"type": "image",
+			"url": "myassets/zhaqu3.png"
+		},
+		{
+			"name": "zhaqu1_png",
+			"type": "image",
+			"url": "myassets/zhaqu1.png"
+		},
+		{
+			"name": "zhaqu2_png",
+			"type": "image",
+			"url": "myassets/zhaqu2.png"
+		},
+		{
+			"name": "baozha02_png",
+			"type": "image",
+			"url": "myassets/baozha02.png"
+		},
+		{
+			"name": "baozha01_png",
+			"type": "image",
+			"url": "myassets/baozha01.png"
+		},
+		{
+			"name": "shibai_png",
+			"type": "image",
+			"url": "myassets/common/shibai.png"
+		},
+		{
+			"name": "tuzikaixin_png",
+			"type": "image",
+			"url": "myassets/common/tuzikaixin.png"
+		},
+		{
+			"name": "tuzinanguo_png",
+			"type": "image",
+			"url": "myassets/common/tuzinanguo.png"
+		},
+		{
+			"name": "chengong_png",
+			"type": "image",
+			"url": "myassets/common/chengong.png"
+		},
+		{
+			"name": "baozha_mp3",
+			"type": "sound",
+			"url": "sound/baozha.mp3"
+		},
+		{
+			"name": "fail_mp3",
+			"type": "sound",
+			"url": "sound/fail.mp3"
+		},
+		{
+			"name": "success_mp3",
+			"type": "sound",
+			"url": "sound/success.mp3"
+		},
+		{
+			"name": "start_mp3",
+			"type": "sound",
+			"url": "sound/start.mp3"
+		},
+		{
+			"name": "preloadMusic_mp3",
+			"type": "sound",
+			"url": "sound/preloadMusic.mp3"
+		},
+		{
+			"name": "enterGame_mp3",
+			"type": "sound",
+			"url": "sound/enterGame.mp3"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/myskins/BtnsGroupSkin.exml",
+		"resource/myskins/GameControlSkin.exml",
+		"resource/myskins/GameEndSkin.exml",
+		"resource/myskins/GameStageSkin.exml",
+		"resource/myskins/NoticeDialog1Skin.exml",
+		"resource/myskins/NoticeDialogSkin.exml"
+	],
+	"skins": {},
+	"path": "resource/default.thm.json"
+}

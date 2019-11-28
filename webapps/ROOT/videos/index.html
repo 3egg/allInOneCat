@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+    body {
+        background-image: url('./images/bg.png');
+        background-size: 100%;
+      }</style>
+  </head>
+  <body>
+    <div class="bg-back"></div>
+    <div style="display: flex;
+    justify-content: center; flex-direction: column; align-items: center;">
+        <button style="width: 50%;height: 60px;font-size: 40px;margin-bottom: 50px" class="btn2-bg video-1">
+          播放视频1
+        </button>
+        <button style="width: 50%;height: 60px;font-size: 40px;margin-bottom: 50px" class="btn2-bg video-2">
+          播放视频2
+        </button>
+        <button style="width: 50%;height: 60px;font-size: 40px;margin-bottom: 50px" class="btn2-bg video-3">
+          播放视频3
+        </button>
+        <button style="width: 50%;height: 60px;font-size: 40px;margin-bottom: 50px" class="btn2-bg video-4">
+          播放视频4
+        </button>
+    </div>
+
+    <script>
+      document.querySelector('.bg-back').addEventListener('click', function() {
+        window.open('../menu/index.html', '_self');
+      });
+      document.querySelector('.video-1').addEventListener('click', function() {
+        window.open('./video-1.html', '_self');
+      });
+      document.querySelector('.video-2').addEventListener('click', function() {
+        window.open('./video-2.html', '_self');
+      });
+      document.querySelector('.video-3').addEventListener('click', function() {
+        window.open('./video-3.html', '_self');
+      });
+      document.querySelector('.video-4').addEventListener('click', function() {
+        window.open('./video-4.html', '_self');
+      });
+    </script>
+  </body>
+</html>
