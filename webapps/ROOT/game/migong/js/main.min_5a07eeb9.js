@@ -715,7 +715,8 @@ var GameEndView = (function(t) {
     __extends(e, t),
     (e.prototype.childrenCreated = function() {
       t.prototype.childrenCreated.call(this),
-        G.setAllViewClickAction(this, ['endBtn', 'restartBtn', 'nextGameBtn'], this.onGameAction);
+        // TODO:G.setAllViewClickAction(this, ['endBtn', 'restartBtn', 'nextGameBtn'], this.onGameAction);
+        G.setAllViewClickAction(this, ['endBtn', 'restartBtn'], this.onGameAction);
     }),
     (e.prototype.show = function(t, e) {
       (this._nextCall = t), (this._taget = e);
@@ -730,10 +731,11 @@ var GameEndView = (function(t) {
           this._nextCall.apply(this._taget);
           break;
         case 'nextGameBtn':
-          var e = egret.getOption('home'),
-            i = e.lastIndexOf('/'),
-            n = e.substring(0, i);
-          document.location.href = n + '/fanpai';
+          // var e = egret.getOption('home'),
+          //   i = e.lastIndexOf('/'),
+          //   n = e.substring(0, i);
+          // document.location.href = n + '/fanpai';
+          break;
       }
     }),
     (e.prototype.onRemove = function() {

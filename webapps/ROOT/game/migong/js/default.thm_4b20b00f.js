@@ -265,7 +265,8 @@ generateEUI.paths['resource/myskins/BtnsGroupSkin.exml'] = window.BtnsGroupSkin 
 
 	function GameEndSkin() {
 		_super.call(this);
-		this.skinParts = ["bg_1","endBtn","restartBtn","nextGameBtn"];
+		// TODO: this.skinParts = ["bg_1","endBtn","restartBtn","nextGameBtn"];
+		this.skinParts = ["bg_1","endBtn","restartBtn"];
 		
 		this.height = 750;
 		this.width = 1334;
@@ -287,7 +288,8 @@ generateEUI.paths['resource/myskins/BtnsGroupSkin.exml'] = window.BtnsGroupSkin 
 		var t = new eui.Group();
 		t.horizontalCenter = 0;
 		t.verticalCenter = 0;
-		t.elementsContent = [this.bg_1_i(),this.endBtn_i(),this.restartBtn_i(),this.nextGameBtn_i()];
+		// TODO: t.elementsContent = [this.bg_1_i(),this.endBtn_i(),this.restartBtn_i(),this.nextGameBtn_i()];
+		t.elementsContent = [this.bg_1_i(),this.endBtn_i(),this.restartBtn_i()];
 		return t;
 	};
 	_proto.bg_1_i = function () {
