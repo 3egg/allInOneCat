@@ -943,6 +943,7 @@ var LoadingUI = (function(t) {
     (e.prototype.onAction = function(t) {
       // TODO: 
       document.querySelector('.hide-content').style.display = 'none';
+      document.querySelector('.egret-player').style.marginTop = 'auto';
       this._isOk &&
         (this._btn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onAction, this),
         this.removerView(),
