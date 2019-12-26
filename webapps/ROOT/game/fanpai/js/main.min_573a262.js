@@ -916,7 +916,7 @@ var GameStage = function(e) {
       case "return_btn":
           var t = egret.getOption("home");
           (null == t || "" == t) && (t = "/"),
-          document.location.href = '../../../menu/index.html'; // TODO:
+          document.location.href = '../../../index.html'; // TODO:
           break;
       case "sound_btn":
           SoundManager.instance.isMusicOn = !SoundManager.instance.isMusicOn,

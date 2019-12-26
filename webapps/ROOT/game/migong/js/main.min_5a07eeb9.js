@@ -196,7 +196,7 @@ var __reflect =
             break;
           case 'btn_return':
             var e = egret.getOption('home');
-            (null == e || '' == e) && (e = '/'), (document.location.href = '../../../menu/index.html'); // TODO:
+            (null == e || '' == e) && (e = '/'), (document.location.href = '../../../index.html'); // TODO:
             break;
           case 'btn_sound':
             (SoundManager.instance.isMusicOn = !SoundManager.instance.isMusicOn),
