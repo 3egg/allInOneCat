@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>视频</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <meta name="allowfullscree" content="true" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="overflow: hidden;padding: 0;margin: 0;">
+      <div class="bg-back" style="position: relative; z-index: 1;margin-bottom: -200px;"></div>
+      <div class="video-1" style="width:100%; position:relative; padding-bottom:60.25%">
+        <video src="./static/fangkongjingbao.mp4" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;object-fit:fill" class="video-1" autoplay loop type="video/mp4">
+        </video>
+      </div>
+    <script>
+        document.querySelector('.bg-back').addEventListener('click',function(){
+          window.open('../index.html','_self');
+        })
+      </script>
+  </body>
+</html>
