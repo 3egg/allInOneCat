@@ -826,6 +826,7 @@ var LoadingUI = function(e) {
     // TODO:
     console.log(this._isOk, e)
     document.querySelector('.hide-content').style.display = 'none';
+    document.querySelector('.egret-player').style.marginTop = 'auto';
     // document.querySelector('.game-tip').style.display = 'none';
     //       document.querySelector('.videos').style.display = 'none';
       this._isOk && (this._btn.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onAction, this),
