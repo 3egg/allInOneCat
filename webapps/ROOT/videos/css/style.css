@@ -3,8 +3,10 @@
 .bg-back {
   width: 200px;
   height: 200px;
-  margin-left: 100px;
-  background: url(../images/backBtn.png) no-repeat center left;
+  background: url(../images/return-ttn.png) no-repeat center left;
+  float: right;
+    margin-right: 100px;
+    margin-top: -20px;
 }
 .btn2-bg {
   display: inline-block;
