@@ -17,14 +17,17 @@
   </head>
   <body style="overflow: hidden;padding: 0;margin: 0;">
       <div class="bg-back" style="position: relative; z-index: 1;margin-bottom: -200px;"></div>
-      <div class="video-1" style="width:100%; position:relative; padding-bottom:60.25%">
-        <video src="./static/yuxianjingbao.mp4" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;object-fit:fill" class="video-1" autoplay loop type="video/mp4">
+      <div class="video-1" style="width:100%; position:relative; padding-bottom:57.25%">
+        <video src="./static/yuxianjingbao.mp4" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;object-fit:fill" class="video-1" autoplay type="video/mp4">
         </video>
       </div>
     <script>
         document.querySelector('.bg-back').addEventListener('click',function(){
           window.open('../index.html','_self');
-        })
+        });
+        setTimeout(function(){
+          window.open('../index.html','_self');
+        },62000)
       </script>
   </body>
 </html>
