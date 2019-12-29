@@ -619,7 +619,8 @@ var GameEndView = function(e) {
   return __extends(t, e),
   t.prototype.childrenCreated = function() {
       e.prototype.childrenCreated.call(this),
-      G.setAllViewClickAction(this, ["endBtn", "restartBtn", "nextGameBtn"], this.onGameAction)
+    //TODO   G.setAllViewClickAction(this, ["endBtn", "restartBtn", "nextGameBtn"], this.onGameAction)
+    G.setAllViewClickAction(this, ["endBtn", "restartBtn"], this.onGameAction)
   }
   ,
   t.prototype.show = function(e, t) {
@@ -639,10 +640,10 @@ var GameEndView = function(e) {
           this._nextCall.apply(this._taget);
           break;
       case "nextGameBtn":
-          var t = egret.getOption("home")
-            , n = t.lastIndexOf("/")
-            , i = t.substring(0, n);
-          document.location.href = i + "/fenlei"
+        //   var t = egret.getOption("home")
+        //     , n = t.lastIndexOf("/")
+        //     , i = t.substring(0, n);
+        //   document.location.href = i + "/fenlei"
       }
   }
   ,
