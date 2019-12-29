@@ -90,8 +90,8 @@ body {
 .bg-back {
   width: 200px;
   height: 200px;
-  left: 95%;
-  top: 100px;
+  left: 88%;
+  top: 60px;
   position: relative;
   z-index: 100;
   background: url('../images/return-ttn.png') no-repeat center left;
