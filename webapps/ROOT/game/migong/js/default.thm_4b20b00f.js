@@ -304,7 +304,8 @@ generateEUI.paths['resource/myskins/BtnsGroupSkin.exml'] = window.BtnsGroupSkin 
 		var t = new eui.Button();
 		this.endBtn = t;
 		t.label = "";
-		t.x = 103;
+		// t.x = 103;
+		t.x = 203;
 		t.y = 335;
 		t.skinName = GameEndSkin$Skin1;
 		return t;
@@ -313,7 +314,8 @@ generateEUI.paths['resource/myskins/BtnsGroupSkin.exml'] = window.BtnsGroupSkin 
 		var t = new eui.Button();
 		this.restartBtn = t;
 		t.label = "";
-		t.x = 298;
+		// t.x = 298;
+		t.x = 398;
 		t.y = 335;
 		t.skinName = GameEndSkin$Skin2;
 		return t;
