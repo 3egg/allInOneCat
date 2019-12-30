@@ -466,7 +466,8 @@ _proto.endBtn_i = function () {
 	var t = new eui.Button();
 	this.endBtn = t;
 	t.label = "";
-	t.x = 103;
+	// t.x = 103;// TODO:
+	t.x = 203;// TODO:
 	t.y = 335;
 	t.skinName = GameEndSkin$Skin1;
 	return t;
@@ -475,7 +476,8 @@ _proto.restartBtn_i = function () {
 	var t = new eui.Button();
 	this.restartBtn = t;
 	t.label = "";
-	t.x = 298;
+	// t.x = 298; // TODO:
+	t.x = 398; // TODO:
 	t.y = 335;
 	t.skinName = GameEndSkin$Skin2;
 	return t;
